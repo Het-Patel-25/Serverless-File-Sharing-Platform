@@ -1,1 +1,1 @@
-# Serverless-File-Sharing-Platform.-Pub
+# Serverless-File-Sharing-Platform
