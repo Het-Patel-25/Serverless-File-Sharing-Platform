@@ -17,10 +17,15 @@ The Serverless File Sharing Platform allows users to securely upload and downloa
 * AWS account with Lambda, API Gateway, and S3 permissions.
 
 ### Deployment Steps
-1. Create an S3 bucket for uploads.
-2. Create the `UploadFunction` Lambda to save files to S3.
-3. Create the `DownloadFunction` Lambda to read files from S3.
-4. Configure API Gateway routes for upload and download.
+1. Create an S3 bucket to store uploaded files.
+   * Example bucket name: `your-file-sharing-bucket`
+2. Create the `UploadFunction` Lambda function.
+   * Use `UploadFunction.py` as the handler code.
+3. Create the `DownloadFunction` Lambda function.
+   * Use `DownloadFunction.py` as the handler code.
+4. Configure API Gateway to expose upload and download endpoints.
+   * POST `/files?fileName=...` for uploads.
+   * GET `/files?fileName=...` for downloads.
 
 ## Files in this Repository
 * `UploadFunction.py` — Lambda handler for uploading files to S3.
