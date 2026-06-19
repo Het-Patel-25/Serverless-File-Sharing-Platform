@@ -9,8 +9,7 @@ The Serverless File Sharing Platform allows users to securely upload and downloa
 * **Collaborative Work:** Share documents and resources securely with teams.
 
 ## Project Architecture
-![Project Architecture Diagram](architecture.png)
-
+![Project Architecture Diagram](PROJECT_ARCHITECTURE.jpg)
 ## Steps to Build the Project
 
 ### Prerequisites
