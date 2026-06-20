@@ -1,7 +1,7 @@
-# Serverless File Sharing Platform
+# Cloud-Based File Upload & Sharing System
 
 ## Project Description
-The Serverless File Sharing Platform allows users to securely upload and download files through a simple HTTP API. It uses AWS Lambda for serverless compute, API Gateway for RESTful APIs, and Amazon S3 for scalable object storage.
+Cloud-Based File Upload & Sharing System  allows users to securely upload and download files through a simple HTTP API. It uses AWS Lambda for serverless compute, API Gateway for RESTful APIs, and Amazon S3 for scalable object storage.
 
 ## Use Cases
 * **File Sharing:** Upload files via POST and retrieve them via GET.
